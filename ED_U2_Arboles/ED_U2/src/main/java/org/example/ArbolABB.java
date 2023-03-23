@@ -52,7 +52,7 @@ public class ArbolABB {
                 buscar(n.getIzq(),o);
         }
         else {
-            if ((int) o > (int) n.getDato()) {
+            if ((int)o>(int) n.getDato()) {
                 if (n.getDer() == null)
                     System.out.println("Elemento no existente");
                 else
@@ -62,30 +62,37 @@ public class ArbolABB {
                 System.out.println("Elemento existe");
         }
     }
+    public void buscar (Object o){
+        buscar(raiz,o);
+    }
 
     public static void main(String[] args) {
+        // Dato de rapidez
+        /*
         Random rand = new Random();
         long start = System.currentTimeMillis();
-        ArbolABB arbol = new ArbolABB(rand.nextInt());
+        ArbolABB arbolTiempo = new ArbolABB(rand.nextInt());
         for (int i=0;i<100000;i++)
-            arbol.insertar(rand.nextInt());
-        /* arbol.insertar(67);
-        arbol.insertar(99);
-        arbol.insertar(5);
-        arbol.insertar(39);
-        arbol.insertar(88);
-        arbol.insertar(62);
-        arbol.insertar(41);
-        arbol.insertar(79);
-        System.out.printf("Recorrido PreOrden");
-        arbol.preOrder();
-        System.out.printf("Recorrido PosOrder");
-        arbol.posOrder();
-        System.out.println("Recorrido inOrder");
-        arbol.inOrder();*/
-        arbol.inOrder();
+            arbolTiempo.insertar(rand.nextInt());
         long finish = System.currentTimeMillis();
         long timeElapsed = finish - start;
-        System.out.println("El tiempo es de "+timeElapsed);
+        */
+        //System.out.println("El tiempo es de "+timeElapsed);
+
+        //Dato de busqueda
+        int numero = 100;
+        ArbolABB arbolBusqueda = new ArbolABB(numero);
+        arbolBusqueda.insertar(67);
+        arbolBusqueda.insertar(99);
+        arbolBusqueda.insertar(5);
+        arbolBusqueda.insertar(39);
+        arbolBusqueda.insertar(88);
+        arbolBusqueda.insertar(62);
+        arbolBusqueda.insertar(41);
+        arbolBusqueda.insertar(79);
+        arbolBusqueda.insertar(200);
+        System.out.println("Buscando el elemento "+ numero);
+        arbolBusqueda.buscar(200);
+
     }
 }
