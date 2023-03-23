@@ -47,7 +47,7 @@ public class NodoBin {
         System.out.println(dato);//Visitar raiz
     }
     public void preOrder(){ //RID
-        System.out.println(dato);
+        //System.out.println(dato);
         if (izq!=null){
             izq.preOrder();
         }
@@ -59,13 +59,9 @@ public class NodoBin {
         if (izq!=null){
             izq.InOrder();
         }
-        System.out.println(dato);
+        //System.out.println(dato);
         if (der!=null){
             der.InOrder();
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }

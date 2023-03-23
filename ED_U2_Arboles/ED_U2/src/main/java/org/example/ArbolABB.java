@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Random;
+
 public class ArbolABB {
     protected NodoBin raiz;
     public ArbolABB(Object o){
@@ -42,10 +44,32 @@ public class ArbolABB {
             }
         }
     }
+    public void buscar(NodoBin n, Object o){
+        if ((int)o<(int)n.getDato()){
+            if (n.getIzq()==null)
+                System.out.println("Elemento no existente");
+            else
+                buscar(n.getIzq(),o);
+        }
+        else {
+            if ((int) o > (int) n.getDato()) {
+                if (n.getDer() == null)
+                    System.out.println("Elemento no existente");
+                else
+                    buscar(n.getDer(), o);
+            }
+            else
+                System.out.println("Elemento existe");
+        }
+    }
 
     public static void main(String[] args) {
-        ArbolABB arbol = new ArbolABB(56);
-        arbol.insertar(67);
+        Random rand = new Random();
+        long start = System.currentTimeMillis();
+        ArbolABB arbol = new ArbolABB(rand.nextInt());
+        for (int i=0;i<100000;i++)
+            arbol.insertar(rand.nextInt());
+        /* arbol.insertar(67);
         arbol.insertar(99);
         arbol.insertar(5);
         arbol.insertar(39);
@@ -58,6 +82,10 @@ public class ArbolABB {
         System.out.printf("Recorrido PosOrder");
         arbol.posOrder();
         System.out.println("Recorrido inOrder");
+        arbol.inOrder();*/
         arbol.inOrder();
+        long finish = System.currentTimeMillis();
+        long timeElapsed = finish - start;
+        System.out.println("El tiempo es de "+timeElapsed);
     }
 }
