@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9673a950-2f2f-4de3-b8b6-35b0b3e2a574" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/ABB2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/src/main/java/org/example/ArbolABB.java" beforeDir="false" afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/src/main/java/org/example/ArbolABB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/target/classes/org/example/ArbolABB.class" beforeDir="false" afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/target/classes/org/example/ArbolABB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +36,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\luism\OneDrive\Documentos\GitHub\EstructuraDeDatos\ED_U2_Arboles\ED_U2" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -58,6 +64,9 @@
       <option name="presentableId" value="Default" />
       <updated>1679595897580</updated>
       <workItem from="1679595900402" duration="2931000" />
+      <workItem from="1679598944992" duration="56000" />
+      <workItem from="1679633495825" duration="354000" />
+      <workItem from="1679681918848" duration="1227000" />
     </task>
     <servers />
   </component>

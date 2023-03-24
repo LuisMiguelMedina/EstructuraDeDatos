@@ -29,3 +29,4 @@ If it has both left and right children, apply any of the following criteria:
   Replace 90 with 85.
 
 ## Diagram:
+![ABB Fisico](ABB2.jpg)
