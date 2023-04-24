@@ -1,4 +1,4 @@
-package org.example;
+package org.arboles.abb;
 
 public class NodoBin {
     protected Object dato;
@@ -55,13 +55,13 @@ public class NodoBin {
             der.preOrder();
         }
     }
-    public void InOrder(){ //IRD
+    public void inOrder(){ //IRD
         if (izq!=null){
-            izq.InOrder();
+            izq.inOrder();
         }
         //System.out.println(dato);
         if (der!=null){
-            der.InOrder();
+            der.inOrder();
         }
     }
 }

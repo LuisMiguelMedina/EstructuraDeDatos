@@ -1,6 +1,4 @@
-package org.example;
-
-import java.util.Random;
+package org.arboles.abb;
 
 public class ArbolABB {
     protected NodoBin raiz;
@@ -66,6 +64,44 @@ public class ArbolABB {
         buscar(raiz,o);
     }
 
+    public void borrar(Object o){
+        borrar(raiz,o);
+    }
+    public NodoBin borrar(NodoBin n,Object o) {
+        if (n==null)
+            System.out.println("El elemento no esta en el arbol");
+        else {
+            if ((int)o>(int)n.getDato()){
+                n.setDer(borrar(n.getDer(),o));
+            } else {
+                if ((int)o<(int)n.getDato())
+                    n.setIzq(borrar(n.getIzq(),o));
+                else {
+                    if (n.getDer()!=null && n.getIzq()!=null){
+                        NodoBin minimo = buscarMin(n.getDer());
+                        n.setDato(minimo.getDato());
+                        n.setDer(borrarMin(n.getDer()));
+                    }else {
+                        n=(n.getIzq()!=null)? n.getIzq():n.getDer();
+                    }
+                }
+            }
+        }
+        return n;
+    }
+    public NodoBin buscarMin (NodoBin n){
+        while (n.getIzq()!=null)
+            n=n.getIzq();
+        return n;
+    }
+    public NodoBin borrarMin (NodoBin n){
+        if (n.getIzq()!=null){
+            n.setIzq(borrarMin(n.getIzq()));
+            return n;
+        } else {
+            return n.getDer();
+        }
+    }
     public static void main(String[] args) {
         // Dato de rapidez
         /*
@@ -90,9 +126,9 @@ public class ArbolABB {
         arbolBusqueda.insertar(62);
         arbolBusqueda.insertar(41);
         arbolBusqueda.insertar(79);
-        arbolBusqueda.insertar(200);
+        arbolBusqueda.insertar(100);
         System.out.println("Buscando el elemento "+ numero);
-        arbolBusqueda.buscar(200);
-
+        arbolBusqueda.borrar(numero);
+        arbolBusqueda.buscar(numero);
     }
 }

@@ -5,15 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9673a950-2f2f-4de3-b8b6-35b0b3e2a574" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/ABB2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/src/main/java/org/arboles/avl/ArbolAVL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/src/main/java/org/arboles/avl/NodoAVL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/src/main/java/org/example/ArbolABB.java" beforeDir="false" afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/src/main/java/org/arboles/abb/ArbolABB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/src/main/java/org/example/NodoBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/src/main/java/org/arboles/abb/NodoBin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/target/classes/org/example/ArbolABB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ED_U2_Arboles/ED_U2/target/classes/org/example/NodoBin.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +65,26 @@
       <recent name="C:\Users\luism\OneDrive\Documentos\GitHub\EstructuraDeDatos\ED_U2_Arboles\ED_U2" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="ArbolAVL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.arboles.avl.ArbolAVL" />
+      <module name="ED_U2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.arboles.avl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArbolAVL" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +96,14 @@
       <workItem from="1679595900402" duration="2931000" />
       <workItem from="1679598944992" duration="56000" />
       <workItem from="1679633495825" duration="354000" />
-      <workItem from="1679681918848" duration="1227000" />
+      <workItem from="1679681918848" duration="2730000" />
+      <workItem from="1679940968931" duration="410000" />
+      <workItem from="1679944632972" duration="12000" />
+      <workItem from="1680200758666" duration="806000" />
+      <workItem from="1680286922092" duration="3349000" />
+      <workItem from="1680461798393" duration="400000" />
+      <workItem from="1681755440670" duration="1785000" />
+      <workItem from="1682360336305" duration="2628000" />
     </task>
     <servers />
   </component>
